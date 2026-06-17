@@ -3,6 +3,7 @@ import EmployeeBonus from "./day_1_tasks/EmployeeBonus";
 import LoginForm from "./day_1_tasks/LoginForm";
 import ProductCalculator from "./day_1_tasks/ProductCalculator";
 import StudentGradeSystem from "./day_1_tasks/StudentGradeSystem";
+import TodoTaskCounter from "./day_1_tasks/TodoTaskCounter";
 function App() {
 
   return (
@@ -18,6 +19,9 @@ function App() {
        <br/>
        <h1>Employee Bonus</h1>
        <EmployeeBonus/>
+       <br/>
+       <h1>Todo Task Counter</h1>
+       <TodoTaskCounter/>
     </div>
   );
 }
