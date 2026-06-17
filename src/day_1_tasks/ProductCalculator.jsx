@@ -1,6 +1,7 @@
 import React from 'react'
 import{ useState } from 'react'
-const ProductCalculator = () => {
+
+  const ProductCalculator = () => {
   const [name,setName] = useState("");
   const [price,setPrice] = useState("");
   const [quantity,setQuantity] = useState("")
