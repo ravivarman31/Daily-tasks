@@ -4,6 +4,8 @@ import LoginForm from "./day_1_tasks/LoginForm";
 import ProductCalculator from "./day_1_tasks/ProductCalculator";
 import StudentGradeSystem from "./day_1_tasks/StudentGradeSystem";
 import TodoTaskCounter from "./day_1_tasks/TodoTaskCounter";
+import UserSearch from "./day_1_tasks/UserSearch";
+
 function App() {
 
   return (
@@ -22,6 +24,9 @@ function App() {
        <br/>
        <h1>Todo Task Counter</h1>
        <TodoTaskCounter/>
+       <br/>
+       <h1>User Search</h1>
+       <UserSearch/>
     </div>
   );
 }
