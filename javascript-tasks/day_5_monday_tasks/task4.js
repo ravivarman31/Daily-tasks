@@ -6,9 +6,4 @@ let result = ages.filter(function(age) {
 
 
 
-});
-
-
-console.log(result);
-
-
+});console.log(result);
